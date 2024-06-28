@@ -17,6 +17,9 @@
     gap:80px;
 }
 
+.footer-content-left{
+    width:30%;
+}
 .footer-content-left, .footer-content-right, .footer-content-center{
     display:flex;
     flex-direction: column;
@@ -48,10 +51,10 @@
 }
 
 
-@media(max-width:750px){
+@media(max-width:900px){
     .footer-content{
-        display:flex;
-        flex-direction: column;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
         gap: 35px;
     }
 
