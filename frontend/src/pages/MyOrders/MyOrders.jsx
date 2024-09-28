@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './MyOrders.css'
 import { useContext } from 'react';
-import { StoreContext } from '../../Context/StoreContext';
+import { StoreContext } from '../../context/StoreContext';
 import headers from '../../components/Header/Header';
 import axios from 'axios'
 import { assets } from '../../assets/assets';
